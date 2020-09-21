@@ -6,7 +6,8 @@ As my final project of CS50x, I decided to create a blog post website in a respo
 ## Setup
 ``` 
 git clone https://github.com/anfederico/Flaskex
-cd Flaskex
-pip install -r requirements.txt
-python app.py
+cd finals
+pip3 install -r requirements.txt
+export FLASK_APP=application.py 
+flask run
 ```
