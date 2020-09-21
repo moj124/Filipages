@@ -12,6 +12,5 @@ As my final project of CS50x, I decided to create a blog post website in a respo
 git clone https://github.com/moj124/Filipages
 cd finals
 pip3 install -r requirements.txt
-export FLASK_APP=application.py 
 flask run
 ```
