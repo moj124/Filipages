@@ -1,0 +1,122 @@
+
+/*body {*/
+/*    background-color:  #032539;*/
+/*}*/
+
+#search_bar {
+    width: 50%;
+    text-align:left;
+}
+
+#search_bar_location {
+    width:25%;
+    text-align:left;
+}
+
+#search_submit {
+    width:90px;
+}
+
+
+
+form {
+    text-align: center;
+    margin:auto;
+}
+
+.form-control {
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+
+    text-align: center;
+}
+
+main {
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+
+}
+
+
+#file {
+    padding-top: 20px;
+}
+
+.jumbotron {
+    width: auto;
+    height: 250px;
+    margin-bottom: 0;
+    background-color: #77BFE2;
+    color:white;
+}
+
+.badge{
+    max-width: 25%;
+}
+
+select .add_post {
+    width: 25%;
+}
+
+.link-button { 
+    background: none;
+    border: none;
+    color: #0066ff;
+    text-decoration: underline;
+    cursor: pointer; 
+    display: inline;
+}
+
+.inline_form{
+    display: inline;
+}
+
+.options{
+    display: inline;
+}
+
+.add_post{
+    width : 75%;
+}
+
+img .card-img-top{
+    width: 50%;
+    height: 30%;
+    max-width: 100%;
+    }
+
+nav img {
+        width: 20px;
+    }
+
+.wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+    }
+
+.carousel{
+    width:90%;
+    margin:0px auto;
+    }
+.slick-slide{
+margin:10px;
+}
+.slick-slide img{
+width:100%;
+border: 2px solid #fff;
+}
+
+.card-text p {
+    color: white;
+}
+
+.card-text p:first-line {
+    color: black;
+}

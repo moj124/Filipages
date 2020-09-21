@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    My Account
+{% endblock %}
+
+{% block main %}
+    <h1 style="text-align: center;">My Account</h1>
+        <hr>
+    <form action="/account" method="POST" id="add_post">
+    <div class="container">
+        <div class="row">
+        <div class="col">
+                <div class="form-group">
+                    <input type="text" class="form-control" autocomplete="off" name="username" value="{{user['username']}}" required>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="password" name="current_password" placeholder="Current Password" required>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="password" name="new_password" placeholder="New Password" required>
+                </div>
+                <input class="btn btn-primary" type="submit" value="Submit">
+        </div>
+        </div>
+    </div>
+    </form>
+{% endblock %}

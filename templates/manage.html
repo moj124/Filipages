@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Manage Posts
+{% endblock %}
+
+{% block main %}
+    <h1> Manage Posts </h1>
+    {% for row in rows %}
+        <a href="view/{{row['id']}}">
+            <h2 style="text-align: center;"></h2>{{ row['title'] }}</h2>
+        </a>
+        <div class="options">
+            <form action="edit/{{row['id']}}" method="GET" class="inline_form">
+                <button type="submit" class="link-button"><i class="fas fa-edit"></i></button>
+            </form>
+            <span> | </span>
+            <form action="delete/{{row['id']}}" method="POST" class="inline_form">
+                <button type="submit" class="link-button"><i class="fas fa-trash"></i></button>
+            </form>
+        </div>
+        <div scope="row">
+            <div scope="col">
+                <div class="badge badge-primary">{{row['date']}}</div>
+            </div>
+        </div>
+        <hr>
+    {% endfor %}
+{% endblock %}

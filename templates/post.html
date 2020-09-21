@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Manage Posts
+{% endblock %}
+
+{% block main %}
+    <h1>{{post["title"]}}</h1>
+    <h5>{{post["location"]}}</h5>
+    <hr>
+    <img src='/{{post["image"]}}' class="img-fluid">  
+    
+    <hr> 
+    <p style="white-space: pre-line">{{post["text"]}}</p> 
+{% endblock %}

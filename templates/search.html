@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Search Posts
+{% endblock %}
+
+{% block main %}
+    <h1> Search Results </h1>
+    <h3> Location: {{location}}</h3>
+    {% for row in rows %}
+        <a href="view/{{row['id']}}">
+            <h2 style="text-align: center;"></h2>{{ row['title'] }}</h2>
+        </a>
+        <div scope="row">
+            <div scope="col">
+                <div class="badge badge-primary">{{row['date']}}</div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <p> {{row["description"]}} </p>
+        </div>
+        <hr>
+    {% endfor %}
+{% endblock %}
