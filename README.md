@@ -10,7 +10,7 @@ As my final project of CS50x, I decided to create a blog post website in a respo
 ## Setup
 ``` 
 git clone https://github.com/moj124/Filipages
-cd finals
+cd Filipages
 pip3 install -r requirements.txt
 flask run
 ```
