@@ -108,7 +108,7 @@ def upload_file():
                     text = request.form.get("body"), date = datetime.datetime.now())
                 connection.execute(s)
 
-            # render mangement page of user's posts
+            # render management page of user's posts
             return redirect("/manage")
     else:
         # render the add page for creating user's posts
