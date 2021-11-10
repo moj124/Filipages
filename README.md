@@ -1,6 +1,6 @@
 # Filipages
 
-[View Quick Video Preview](https://repl.it/github/moj124/Filipages)
+[View Quick Video Preview](https://www.youtube.com/watch?v=z3IYi3EmZAk)
 
 <p align="center"><img src="https://raw.githubusercontent.com/moj124/Filipages/master/media/filipage_img.png" width="100%"><p>
 
